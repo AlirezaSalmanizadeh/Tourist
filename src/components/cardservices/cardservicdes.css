@@ -1,0 +1,28 @@
+.CardServices {
+    text-align: justify;
+    padding: 24px 36px 24px 36px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    width: 17%;
+    margin: 1%;
+    transition: 400ms;
+}
+
+.CardServices:hover {
+    cursor: pointer;
+    background-color: rgba(162, 208, 141, 0.5);
+}
+
+.CardTitle {
+    color: #303D4E;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.CardText {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #8E8B9C;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}

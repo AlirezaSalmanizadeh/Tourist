@@ -1,0 +1,55 @@
+:root {
+    --white: white;
+    --green: #91B73D;
+    --green2: #98da0a;
+}
+
+.UlMenu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.UlMenu li {
+    margin-left: 20px;
+}
+
+.UlMenu li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.UlMenu li a:hover:not(.Btn) {
+    color: var(--green);
+    transition: 600ms;
+    cursor: pointer;
+    padding-bottom: 28px;
+    border-bottom: 3px solid var(--green);
+}
+
+a .BtnRgister:hover {
+    background-color: var(--green2);
+}
+
+.BtnRgister {
+    background-color: var(--green);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 2.5;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    transition: 600ms;
+    text-align: center;
+}
+
+.active:not(.Btn) {
+    color: var(--green) !important;
+    padding-bottom: 28px;
+    border-bottom: 3px solid var(--green) !important;
+}

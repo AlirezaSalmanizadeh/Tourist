@@ -1,0 +1,74 @@
+:root {
+    --white: white;
+    --navback: #14141E;
+    --gray: rgba(245, 245, 245, 0.5);
+}
+
+.RelationUl,
+.AddresUl {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.AddresUl li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.AddresUl li {
+    color: var(--white);
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Phone,
+.Email {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.RelationUl li img {
+    width: 32px;
+    height: 32px;
+    transition: 0.8s;
+}
+
+.RelationUl li {
+    margin-right: 8px;
+}
+
+.RelationUl li img:hover {
+    border: 1px;
+    box-shadow: 0px 0px 10px 7px var(--gray);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.NavContact {
+    background-color: var(--navback);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+@media (max-width:1024px) {
+    .NavContact {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .NavContact {
+        display: none;
+    }
+}

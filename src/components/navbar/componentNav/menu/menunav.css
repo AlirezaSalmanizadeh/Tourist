@@ -1,0 +1,46 @@
+    .MenuNav {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(./../../../../asset/image/bg-hero\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .Header {
+        border-bottom: 0.1px solid rgba(256, 256, 256, .1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 45px;
+        padding-right: 45px;
+        transition: 600ms;
+    }
+    
+    .Search {
+        padding-bottom: 8%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .StinkyHeader {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)!important;
+        transition: 500ms;
+        z-index: 999;
+    }
+    
+    .StinkyHeader .UlMenu li a {
+        color: black;
+    }

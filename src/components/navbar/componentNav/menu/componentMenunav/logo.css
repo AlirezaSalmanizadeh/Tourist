@@ -1,0 +1,18 @@
+:root {
+    --green: #91B73D;
+}
+
+.ImgLogo {
+    width: 32px;
+    height: 32px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.TitleLogo {
+    color: var(--green);
+    margin-left: 10px;
+}
