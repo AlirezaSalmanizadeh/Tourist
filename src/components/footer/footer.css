@@ -1,0 +1,105 @@
+.Footer {
+    background-color: #14141E;
+    padding: 5% 8% 2% 8%;
+}
+
+.Foot1 {
+    display: flex;
+}
+
+.TitleH4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.FootCompany {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 24px;
+    width: 36%;
+}
+
+.FootCompany a {
+    margin-bottom: 10px;
+}
+
+.LinkCompany {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    transition: 400ms;
+}
+
+.LinkCompany img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.LinkCompany:hover {
+    letter-spacing: 1px;
+}
+
+.FootContact {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    text-align: justify;
+    width: 36%;
+}
+
+.FootContact p {
+    display: flex;
+    align-items: center;
+}
+
+.FootContact p img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.FootGallery h4 {
+    text-align: justify;
+    color: white;
+}
+
+.Galary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+}
+
+.G1,
+.G2,
+.G3,
+.G4,
+.G5,
+.G6 {
+    padding: 5px 5px 0px 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.ImgG1,
+.ImgG2,
+.ImgG3,
+.ImgG4,
+.ImgG5,
+.ImgG6 {
+    width: 83px;
+    height: 55px;
+}
+
+.Foot2 {
+    margin-top: 3%;
+    border-top: 0.1px solid rgba(256, 256, 256, .1);
+}
+
+.Boot {
+    color: white;
+    font-size: 18px;
+}
