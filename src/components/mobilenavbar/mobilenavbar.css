@@ -1,0 +1,44 @@
+.humber {
+    width: 32px;
+    height: 32px;
+}
+
+.Opa {
+    opacity: 0;
+}
+
+.mobileon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    margin-top: 0;
+    top: 0;
+    background-color: #14141D;
+    width: 270px;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.3s ease-in;
+    z-index: 99;
+}
+
+.mobileon li a {
+    text-decoration: none;
+    border-bottom: 3px solid transparent !important;
+    color: white;
+}
+
+.mobileon li {
+    list-style: none;
+    margin: 17px;
+}
+
+.mobileoff {
+    display: none;
+}
+
+.humberoff {
+    display: none;
+}

@@ -1,6 +1,5 @@
 .Services {
-    padding: 6%;
-    padding-top: 2%;
+    padding: 0 3% 4% 3%;
 }
 
 .Cards {
@@ -8,4 +7,66 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.SliderTitle {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.SliderTitle h6 {
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #91B73D;
+    font-size: 18px;
+    background-color: white;
+    width: 10%;
+}
+
+.SliderTitle h1 {
+    color: #303D4E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Sliderimg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (min-width:1400px) {
+    .Services {
+        max-width: 1350px;
+    }
+    .SliderTitle h6::before {
+        position: absolute;
+        content: "";
+        width: 16%;
+        height: 2px;
+        left: 42%;
+        top: 75px;
+        background: var(--green);
+        z-index: -1;
+    }
+    .SliderTitle h6::after {
+        position: absolute;
+        content: "";
+        width: 20%;
+        height: 2px;
+        left: 40%;
+        bottom: 51px;
+        background: var(--green);
+        z-index: -1;
+    }
+}
+
+@media (max-width:900px) {
+    .SliderTitle h6 {
+        width: 100%;
+    }
 }

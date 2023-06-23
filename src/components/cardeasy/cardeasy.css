@@ -1,0 +1,62 @@
+.CardE {
+    padding: 24px;
+    border: 1px solid #86B817;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 1% 2%;
+}
+
+.CardEImg {
+    height: 100px;
+    width: 100px;
+}
+
+.ImgDiv {
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    width: 29%;
+}
+
+.CardE h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2C3E50;
+}
+
+.CardE p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #808B8D;
+}
+
+.CardE hr {
+    background-color: #86B817;
+    height: 1px;
+    width: 30%;
+    margin: 0;
+    margin-top: 3px;
+    opacity: 0.25;
+}
+
+.Hr1 {
+    width: 65% !important;
+}
+
+@media (max-width:900px) {
+    .CardE {
+        width: 80%;
+        margin: 4% 2%;
+    }
+}
+
+@media (max-width:540px) {
+    .CardE {
+        width: 70%;
+    }
+}

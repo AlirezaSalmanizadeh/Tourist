@@ -44,3 +44,10 @@
     .StinkyHeader .UlMenu li a {
         color: black;
     }
+    
+    @media (max-width:900px) {
+        .Header {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }

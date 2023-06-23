@@ -26,3 +26,27 @@
     line-height: 1.5;
     font-weight: 400;
 }
+
+@media (max-width:1380px) {
+    .CardServices {
+        width: 18%;
+    }
+}
+
+@media (max-width:1230px) {
+    .CardServices {
+        width: 218px;
+    }
+}
+
+@media (max-width:900px) {
+    .CardServices {
+        width: 80%;
+    }
+}
+
+@media (max-width:540px) {
+    .CardServices {
+        width: 70%;
+    }
+}

@@ -11,7 +11,7 @@ function App() {
         <div className = "App" >
 
             <Navbar/>
-            <div className='ManiBar'>
+            <div className='MainBar'>
                 <Navroute />
             </div>
             <Footer/>

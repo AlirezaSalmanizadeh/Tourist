@@ -74,3 +74,16 @@
         width: 85%;
     }
 }
+
+@media (max-width:900px) {
+    .DivForm1 {
+        display: none;
+    }
+    .Text {
+        font-size: 12px;
+    }
+    .Title {
+        font-size: 35px;
+        padding-top: 0;
+    }
+}

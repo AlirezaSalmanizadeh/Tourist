@@ -6,7 +6,7 @@ export function TitleServices(){
 
     return(
         <div className="TitleServices">
-            <h6 className="H6Services">Services</h6>
+            <h6 className="H6Services">SERVICES</h6>
             <h1 className="H1Services"> Our Services</h1>
         </div>
     )

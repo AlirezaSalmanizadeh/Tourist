@@ -18,57 +18,60 @@ export function Footer(){
 
     return(
         <div className="Footer">
-            <div className="Foot1">
-                <div className="FootCompany">
-                    <h4 className="TitleH4">Company</h4>
-                    <a className="LinkCompany"><img src={image4}/>About Us</a>
-                    <a className="LinkCompany"><img src={image4}/>Contact Us</a>
-                    <a className="LinkCompany"><img src={image4}/>Privacy Policy</a>
-                    <a className="LinkCompany"><img src={image4}/>Terms & Condition</a>
-                    <a className="LinkCompany"><img src={image4}/>FAQs & Help</a>
-                </div>
-                <div className="FootContact">
-                    <h4 className="TitleH4">Contact</h4>
-                    <p><img src={image7} alt="Not Load"/>123 Street, New York, USA</p>
-                    <p><img src={image6} alt="Not Load"/>+012 345 67890</p>
-                    <p><img src={image5} alt="Not Load"/>mail@domain.com</p>
-                    <ul className = "RelationUl" >
-                        <li > < img src = { image8 }alt = "Facebook" /> </li> 
-                        <li > < img src = { image9 }alt = "Instagram" /> </li> 
-                        <li > < img src = { image10 }alt = "Telegram" /> </li>
-                        <li > < img src = { image11 }alt = "Twitter" /> </li> 
-                        <li > < img src = { image12 }alt = "Youtube" /> </li> 
-                    </ul>
+            <div className="ResponsiveFooter">
+                <div className="Foot1">
+                    <div className="FootCompany">
+                        <h4 className="TitleH4">Company</h4>
+                        <a className="LinkCompany"><img src={image4}/>About Us</a>
+                        <a className="LinkCompany"><img src={image4}/>Contact Us</a>
+                        <a className="LinkCompany"><img src={image4}/>Privacy Policy</a>
+                        <a className="LinkCompany"><img src={image4}/>Terms & Condition</a>
+                        <a className="LinkCompany"><img src={image4}/>FAQs & Help</a>
+                    </div>
+                    <div className="FootContact">
+                        <h4 className="TitleH4">Contact</h4>
+                        <p><img src={image7} alt="Not Load"/>123 Street, New York, USA</p>
+                        <p><img src={image6} alt="Not Load"/>+012 345 67890</p>
+                        <p><img src={image5} alt="Not Load"/>mail@domain.com</p>
+                        <ul className = "RelationUl" >
+                            <li > < img src = { image8 }alt = "Facebook" /> </li> 
+                            <li > < img src = { image9 }alt = "Instagram" /> </li> 
+                            <li > < img src = { image10 }alt = "Telegram" /> </li>
+                            <li > < img src = { image11 }alt = "Twitter" /> </li> 
+                            <li > < img src = { image12 }alt = "Youtube" /> </li> 
+                        </ul>
 
-                </div>
-                <div className="FootGallery">
-                    <h4 className="TitleH4">Gallery</h4>
-                    <div className="Galary">
-                        <div className="G1">
-                            <img  className="ImgG1" src={ image1 } alt="Not Load"/>
-                        </div>
-                        <div className="G2">
-                            <img  className="ImgG2" src={ image2  } alt="Not Load"/>
-                        </div>
-                        <div className="G3">
-                            <img  className="ImgG3" src={  image3 } alt="Not Load"/>
-                        </div>
-                        <div className="G4">
-                            <img  className="ImgG4" src={  image1 } alt="Not Load"/>
-                        </div>
-                        <div className="G5">
-                            <img  className="ImgG5" src={  image2 } alt="Not Load"/>
-                        </div>
-                        <div className="G6">
-                            <img  className="ImgG6" src={  image3 } alt="Not Load"/>
-                        </div>
+                    </div>
+                    <div className="FootGallery">
+                        <h4 className="TitleH4">Gallery</h4>
+                        <div className="Galary">
+                            <div className="G1">
+                                <img  className="ImgG1" src={ image1 } alt="Not Load"/>
+                            </div>
+                            <div className="G2">
+                                <img  className="ImgG2" src={ image2  } alt="Not Load"/>
+                            </div>
+                            <div className="G3">
+                                <img  className="ImgG3" src={  image3 } alt="Not Load"/>
+                            </div>
+                            <div className="G4">
+                                <img  className="ImgG4" src={  image1 } alt="Not Load"/>
+                            </div>
+                            <div className="G5">
+                                <img  className="ImgG5" src={  image2 } alt="Not Load"/>
+                            </div>
+                            <div className="G6">
+                                <img  className="ImgG6" src={  image3 } alt="Not Load"/>
+                            </div>
+                            
                         
-                       
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
+            
             <div className="Foot2">
                 <div className="Boot">
                     <p>© Your Site Name, All Rights Reserved. Designed By HTML Codex</p>

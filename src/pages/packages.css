@@ -1,0 +1,76 @@
+.Packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AwesomePackage {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.TitleAwesome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 3% 5% 3%;
+}
+
+.TitleAwesome h6 {
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #91B73D;
+    font-size: 18px;
+    background-color: white;
+    width: 40%;
+}
+
+.TitleAwesome h1 {
+    color: #303D4E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.CardAwesome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1380px) {
+    .CardAwesome {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:1400px) {
+    .Packages {
+        max-width: 1350px;
+    }
+    .TitleAwesome h6::before {
+        position: absolute;
+        content: "";
+        width: 84%;
+        height: 2px;
+        left: 9%;
+        top: 20px;
+        background: var(--green);
+        z-index: -1;
+    }
+    .TitleAwesome h6::after {
+        position: absolute;
+        content: "";
+        width: 110%;
+        height: 2px;
+        left: -3%;
+        bottom: 48px;
+        background: var(--green);
+        z-index: -1;
+    }
+}

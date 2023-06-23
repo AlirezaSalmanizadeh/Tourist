@@ -12,6 +12,7 @@
 
 .UlMenu li {
     margin-left: 20px;
+    margin-right: 15px;
 }
 
 .UlMenu li a {
@@ -30,7 +31,7 @@
 }
 
 a .BtnRgister:hover {
-    background-color: var(--green2);
+    background-color: #98c33a;
 }
 
 .BtnRgister {
@@ -51,5 +52,5 @@ a .BtnRgister:hover {
 .active:not(.Btn) {
     color: var(--green) !important;
     padding-bottom: 28px;
-    border-bottom: 3px solid var(--green) !important;
+    border-bottom: 3px solid var(--green);
 }

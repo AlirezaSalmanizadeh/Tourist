@@ -1,6 +1,6 @@
 .Footer {
     background-color: #14141E;
-    padding: 5% 8% 2% 8%;
+    padding: 2% 8% 2% 8%;
 }
 
 .Foot1 {
@@ -102,4 +102,54 @@
 .Boot {
     color: white;
     font-size: 18px;
+}
+
+@media (min-width:1499px) {
+    .ResponsiveFooter {
+        display: flex;
+        justify-content: center;
+    }
+    .FootCompany {
+        width: 400px;
+    }
+    .FootContact {
+        width: 490px;
+    }
+    .FootGallery {
+        width: 321px;
+    }
+}
+
+@media (max-width:900px) {
+    .Foot1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .FootContact {
+        width: 35%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .FootCompany {
+        width: 45%;
+    }
+    .Galary {
+        width: 100%;
+    }
+}
+
+@media (max-width:540px) {
+    .Foot1 {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .FootCompany {
+        width: fit-content;
+        padding-right: 52px;
+    }
+    .FootContact {
+        width: fit-content;
+    }
 }

@@ -8,6 +8,7 @@ import { SearchBox } from './componentMenunav/searchbox'
 export function MenuNav() {
 
     const [scrollposition,setscrollposition]=useState(false);
+    const [resize , setresize]=useState(false);
 
     useEffect(()=>{
         window.addEventListener('scroll', stickNavbar);
@@ -21,14 +22,15 @@ export function MenuNav() {
     const stickNavbar=()=>{
         if (window !== undefined) {
             let windowHeight = window.scrollY;
-            console.log(windowHeight);
+            // console.log(windowHeight);
             windowHeight >0 ? setscrollposition(true) : setscrollposition(false);
+            window.screen.width>1000 ?setresize(true) :setresize(false);
         }
     }
 
     return ( <
         div className = "MenuNav" >
-            <div className = {`${scrollposition ?'StinkyHeader' :'Header'}`} >
+            <div className = {`${scrollposition && resize ?'StinkyHeader' :'Header'}`} >
                 <Logo />
                 <MenuUl />
             </div> 
